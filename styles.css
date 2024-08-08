@@ -1,1 +1,91 @@
-/* Write your CSS here! */
+body {
+    margin: 8xp;
+    display: block;
+    background-color: rgb(189, 255, 189);
+}
+
+#mainHeading {
+    color: red;
+    background: green;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+
+p {
+    color: green;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+figure {
+    color: green;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+h1 {
+    color:rgb(154, 247, 154);
+    text-align: center;
+    font-family: "Georgia";
+    box-shadow: 0 2px 0 0 rgb(154, 247, 154);
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: rgb(154, 247, 154);
+    text-align: center;
+    font-family: "Georgia";
+    background: green;
+    padding: 10px;
+    border-radius: 20px;
+
+    
+}
+
+h3 {
+    color: green;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+li {
+    color: rgb(154, 247, 154);
+    text-align: center;
+    font-family: "Georgia";
+}
+
+a:visited {
+    color:  rgb(154, 247, 154);
+}
+
+.grid-list {
+    display: grid;
+    grid-auto-flow: column; 
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    color: green;
+    font-family: "Georgia";
+}
